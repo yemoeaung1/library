@@ -1,0 +1,41 @@
+.header {
+    /* background-color: aliceblue; */
+}
+
+.main-feed {
+    background-color: antiquewhite;
+}
+
+.main-feed {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start
+}
+
+.book {
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 5vw;
+    border-radius: 5px;
+}
+
+.book > p {
+    margin: 1vh;
+}
+
+.book > h2 {
+    text-align: center;
+}
+
+form {
+  
+   margin: auto;
+   border-radius: 10px;
+}
+
+*{
+    /* background-color: antiquewhite; */
+}
